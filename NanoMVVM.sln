@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NanoMVVM", "NanoMVVM\NanoMVVM.csproj", "{8A701198-4251-40D7-9938-DE207F3EFF7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NanoMVVM.Tests", "NanoMVVM.Tests\NanoMVVM.Tests.csproj", "{73EB7423-F490-418E-BD78-B760799CC43D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A701198-4251-40D7-9938-DE207F3EFF7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A701198-4251-40D7-9938-DE207F3EFF7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A701198-4251-40D7-9938-DE207F3EFF7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A701198-4251-40D7-9938-DE207F3EFF7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73EB7423-F490-418E-BD78-B760799CC43D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73EB7423-F490-418E-BD78-B760799CC43D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73EB7423-F490-418E-BD78-B760799CC43D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73EB7423-F490-418E-BD78-B760799CC43D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00E35B91-EEA7-43EF-A4EB-9818BD0368F6}
+	EndGlobalSection
+EndGlobal
