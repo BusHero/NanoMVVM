@@ -6,11 +6,11 @@ internal class RelayCommand : ICommand
 {
     public string Name { get; }
 
-    public RelayCommand(Action<object?> execute, Func<object?, bool> canExecute, string? name = default)
+    public RelayCommand(Action<object?> execute, Func<object?, bool> canExecute, string name)
     {
         ExecuteAction = execute ?? throw new ArgumentNullException(nameof(execute));
         CanExecuteFunc = canExecute ?? throw new ArgumentNullException(nameof(canExecute));
-        Name = name ?? $"{nameof(RelayCommand)}.{Counter.Next()}";
+        Name = name;
     }
 
     private Action<object?> ExecuteAction { get; }
@@ -22,5 +22,4 @@ internal class RelayCommand : ICommand
 
     public void Execute(object? parameter) => ExecuteAction(parameter);
 
-    private static Counter Counter { get; } = new Counter();
 }
