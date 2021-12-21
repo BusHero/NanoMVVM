@@ -1,5 +1,6 @@
 ﻿using System.Windows.Input;
 
+using static NanoMVVM.Utils.Funcs;
 namespace NanoMVVM;
 
 /// <summary>
@@ -19,10 +20,6 @@ public static class Commands
 
     private static ICommand None { get; }
     
-    private static void DoNothing(object? _) { }
-
-    private static bool AlwaysReturnTrue(object? _) => true;
-
     private static string CrateProgramName(string? name) => name ?? $"{nameof(RelayCommand)}.{Counter.Next()}";
     
     #endregion
